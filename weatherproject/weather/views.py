@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import requests
 
-def home(request):
+def index(request):
     weather_data = None
 
     if request.method == 'POST':
