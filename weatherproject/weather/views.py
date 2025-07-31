@@ -15,7 +15,7 @@ def home(request):
         else:
             weather_data = {'error': 'City not found'}
 
-    return render(request, 'home.html', {'weather': weather_data})
+    return render(request, 'index.html', {'weather': weather_data})
 
 
 # Create your views here.
