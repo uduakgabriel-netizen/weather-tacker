@@ -8,3 +8,7 @@ from . import views
 urlpatterns = [
     path('', views.inedx, name='index'),
 ]
+
+
+
+#this this file defines the URL patterns for the weather app.# It includes a single path that maps the root URL to the `home` view in the `

@@ -12,6 +12,7 @@ def home(request):
         
         if response.status_code == 200:
             weather_data = response.json()
+            
         else:
             weather_data = {'error': 'City not found'}
 
