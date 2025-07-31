@@ -6,7 +6,7 @@ from . import views
 #     return render(request, 'weather/home.html')
 
 urlpatterns = [
-    path('', views.inedx, name='index'),
+    path('', views.home, name='index'),
 ]
 
 
